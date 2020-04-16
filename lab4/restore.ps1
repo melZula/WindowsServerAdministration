@@ -1,0 +1,1 @@
+Get-ADObject -SearchBase “CN=Deleted Objects,DC=YVK,DC=local” -Filter ‘objectclass -eq “<AD object>”’ -IncludeDeletedObjects | Restore-ADObject

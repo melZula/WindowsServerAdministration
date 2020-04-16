@@ -1,0 +1,1 @@
+dsquery user ‘CN=unit-for-delete, DC=YVK, DC=local’ | dsrm -noprompt
